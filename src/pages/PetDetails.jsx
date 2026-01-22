@@ -16,7 +16,7 @@ import {
 } from '@mui/material';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import { toast } from 'react-toastify';
-import axios from 'axios';
+import axios from '../utils/axios';
 
 const PetDetails = () => {
     const { id } = useParams();
