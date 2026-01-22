@@ -22,7 +22,7 @@ import ForgotPassword from './pages/ForgotPassword';
 import ResetPassword from './pages/ResetPassword';
 
 // Placeholder Pages for later
-const NotFound = () => <h1>404 Not Found</h1>;
+import NotFound from './pages/NotFound';
 
 function App() {
   const dispatch = useDispatch();
